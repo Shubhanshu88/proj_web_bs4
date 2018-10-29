@@ -1,1 +1,1 @@
-This website has been made by shubhanshu gairola using bs4
+This website currently has only 1 page, further pages would be added soon
