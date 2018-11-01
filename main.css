@@ -1,9 +1,9 @@
 
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+@import "https://fonts.googleapis.com/css?family=Yatra One:300,400,500,600,700";
 
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Yatra One', sans-serif;
 }
 .navbar { background: #f13c20 }
 
@@ -20,7 +20,10 @@
 
 .navbar-toggler { background:#fff !important; }
 
+.navbar span { display: flex; align-items: center; justify-content: center }
+
 .header {
+    display: flex;
     background-image: url('images/photo1.jpeg');
     background-attachment: fixed;
     background-size: cover;
@@ -37,9 +40,8 @@
 }
 
 .description {
-    position: absolute;
-    top: 30%;
-    margin:auto;
+    z-index: 2;
+    margin:auto 10%;
     padding: 2em;
 }
 
