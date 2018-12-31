@@ -71,7 +71,7 @@ body {
 
 .container h1 {
   color: #f13c20;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 .container p {
@@ -146,6 +146,11 @@ body {
 .about .desc h2 {
   line-height: 2;
   color: #888;
+}
+
+.spanProfile {
+  padding: 1em;
+  margin: 1em;
 }
 
 .portfolio {
@@ -225,12 +230,14 @@ body {
 
 .contact-form {
   margin: 9em 0 9em 0;
+  border: 2px solid #999999;
+  background-color: teal;
   position: relative;
 }
 
 .contact-form h1 {
   padding: 2em 1px;
-  color: #f13c20;
+  color: #641e13;
 }
 
 .contact-form .right {
